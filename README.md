@@ -56,7 +56,7 @@ Steps for installation
 Step 1:
 
 ```
-https://github.com/DavisJobs/shoesAppPrivate.git
+https://github.com/DavisJobs/ShoesAppVanilla.git
 ```
 
 Step 2:
