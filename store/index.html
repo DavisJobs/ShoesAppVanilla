@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Document</title>
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="store" class="store">
+      <header class="header">
+        <div class="header__container container">
+          <a href="/" class="header__title">
+            <i class="bx bx-run"></i>
+            <span>Shoes</span>
+          </a>
+
+          <div class="header__group-icons">
+            <div class="header__icon header__icon-cart bx bx-shopping-bag">
+              <span
+                class="header__icon-cart-count header__icon-cart-count--primary"
+                >0</span
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="store__slider">
+        <div class="container">
+          <div class="swiper storeGallery store__store-swiper">
+            <div class="swiper-wrapper">
+              <div class="store__slider-item swiper-slide">
+                <figure class="store__slider-figure">
+                  <img src="/s1.png" alt="" class="store__slider-img" />
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure class="store__slider-figure">
+                  <img src="/s2.jpg" alt="" class="store__slider-img" />
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure class="store__slider-figure">
+                  <img src="/s3.webp" alt="" class="store__slider-img" />
+                </figure>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Filters -->
+      <div class="store__filters">
+        <div class="store__filters-container container">
+          <div class="store__filters-search">
+            <i class="store__filters-icon-search bx bx-search"></i>
+            <input
+              type="text"
+              class="store__filters-search-input"
+              placeholder="Find pair of shoes..."
+            />
+            <i class="store__filters-icon-clean bx bx-x"></i>
+          </div>
+          <div class="store__filters-filter">
+            <i class="bx bx-slider"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section End -->
+
+      <div class="cart">
+        <div class="cart__content">
+          <div class="cart__content-group-head">
+            <i class="cart__content-close bx bx-x"></i>
+            <h2 class="cart__content-title">
+              Cart (<span
+                class="header__icon-cart-count header__icon-cart-count--secondary"
+                >0</span
+              >) Shoes
+            </h2>
+          </div>
+          <div class="cart__content-group-data">
+            <div class="cart__content-items">
+              <!--  -->
+            </div>
+            <div class="cart__content-group-head cart__total">
+              <div class="cart__content-group-head-items">
+                <h4>Items:</h4>
+                <span class="cart__content-group-head-items-span">20</span>
+              </div>
+              <h3 class="cart__content-total">
+                Total: <span class="cart__content-total-items"></span>
+              </h3>
+              <button class="cart__content-total-btn">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Shoes -->
+      <div class="store__shoes">
+        <!--  <div class="container">
+          <h2 class="store__shoes-title">Most Popular</h2>
+        </div> -->
+        <div class="store__shoes-container container">
+          <!--  -->
+        </div>
+      </div>
+      <!-- End Shoes -->
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__content-item">
+              <a href="#" class="footer__title">
+                <i class="bx bx-run"></i>
+                <span>Shoes</span>
+              </a>
+              <p class="footer__description">
+                Finding your fashion has never been easier. Browse the best
+                selection of famous fashion brands that suit your style and
+                performance.
+              </p>
+            </div>
+            <div class="footer__content-item">
+              <h5 class="footer__content-item-option">Menu</h5>
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Men </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Women </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Order Tracking
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Blog </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content-item">
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">FAQ</a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Term Of Conditions
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content-item">
+              <h5 class="footer__content-item-option">Contact</h5>
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Contact Us
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Instagram
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <span> &copy; 2024 Shoes App | By: Jobs</span>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer -->
+    </div>
+
+    <script type="module" src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

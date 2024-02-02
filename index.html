@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes App</title>
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="home" class="home">
+      <div class="container">
+        <div class="header">
+          <div class="header__container">
+            <a href="/" class="header__title">
+              <i class="bx bx-run"></i>
+              <span>Shoes</span>
+            </a>
+            <div class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="/store/" class="header__link">Store</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__group-icons">
+              <div class="header__icon header__icon-cart bx bx-shopping-bag">
+                <span
+                  class="header__icon-cart-count header__icon-cart-count--primary"
+                  >0</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+          <div class="cart__content">
+            <div class="cart__content-group-head">
+              <i class="cart__content-close bx bx-x"></i>
+              <h2 class="cart__content-title">
+                Cart (<span
+                  class="header__icon-cart-count header__icon-cart-count--secondary"
+                  >0</span
+                >) Shoes
+              </h2>
+            </div>
+            <div class="cart__content-group-data">
+              <div class="cart__content-items">
+                <!--  -->
+              </div>
+              <div class="cart__content-group-head cart__total">
+                <div class="cart__content-group-head-items">
+                  <h4>Items:</h4>
+                  <span class="cart__content-group-head-items-span">20</span>
+                </div>
+                <h3 class="cart__content-total">
+                  Total: <span class="cart__content-total-items"></span>
+                </h3>
+                <button class="cart__content-total-btn">Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Cart -->
+
+        <!-- Section Offert -->
+        <div class="home__offert">
+          <div class="home__offert-container">
+            <div class="home__offert-head">
+              <div class="home__offert-group">
+                <h1 class="home__offert-head-title">Trendy shoes to luxury</h1>
+                <p class="home__offert-head-subtitle">
+                  Finding your shoes has never been easier, Browse the best
+                  selection of famous fashion brands that suit your style and
+                  preferences.
+                </p>
+
+                <a class="home__offert-btn" href="/store/"> Check Now </a>
+              </div>
+            </div>
+            <div class="home__offert-model">
+              <img src="/public/offert.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- End Section Offert -->
+        <!-- Section Config Ease -->
+        <div class="home__ease">
+          <div class="home__ease-head">
+            <h2 class="home__ease-head-title">
+              Guarantees , Measures Towards The Client
+            </h2>
+            <p class="home__ease-head-subtitle">
+              guarantee trust towards our clients, excellent services
+            </p>
+          </div>
+
+          <div class="home__ease-item">
+            <i class="home__ease-item-icon bx bx-sync"></i>
+            <h4 class="home__ease-item-title">Free Returns</h4>
+            <p class="home__ease-item-subtitle">
+              Our customers can return or exchange their purchases hassle-free,
+              with our easy-to-use return policy.
+            </p>
+          </div>
+
+          <div class="home__ease-item">
+            <i class="home__ease-item-icon bx bx-shield"></i>
+            <h4 class="home__ease-item-title">Secure Payment</h4>
+            <p class="home__ease-item-subtitle">
+              We oofer a secure checkout process that protects our customers'
+              personal and financial information.
+            </p>
+          </div>
+
+          <div class="home__ease-item">
+            <i class="home__ease-item-icon bx bx-headphone"></i>
+            <h4 class="home__ease-item-title">Customer Support</h4>
+            <p class="home__ease-item-subtitle">
+              Our customers support team is available to help customers with any
+              questions or concerns they may have.
+            </p>
+          </div>
+        </div>
+        <!-- End Section Ease -->
+        <!-- Section Styles -->
+        <div class="home__styles">
+          <div class="home__styles-head">
+            <h2 class="home__styles-head-title">
+              New Style for Latest Collections
+            </h2>
+            <p class="home__styles-head-subtitle">
+              Discover our latest collection of clothing, shoes and accesories
+              that are perfect for any occasion. From casual wear to formal
+              attire, we have everything you need to revamp your wardrobe and
+              stay on trend.
+            </p>
+          </div>
+
+          <div class="home__styles-sport">
+            <div class="home__styles-running">
+              <img
+                src="./public/style1.png"
+                alt=""
+                class="home__styles-runnimg-img"
+              />
+              <h2 class="home__styles-running-title">New Running style</h2>
+              <span class="home__styles-running-subtitle">Now Available</span>
+              <div class="home__styles-running-btn">Check Now</div>
+            </div>
+            <div class="home__styles-essentials">
+              <div class="home__styles-essentials-sport">
+                <p class="home__styles-essentials-title">Sport Essentials</p>
+                <span class="home__styles-essentials-subtitle">
+                  Move and Explore
+                </span>
+                <img
+                  src="./public/style2.png"
+                  alt=""
+                  class="home__styles-essentials-img"
+                />
+              </div>
+              <div class="home__styles-essentials-get">
+                <img
+                  src="./public/get.png"
+                  alt=""
+                  class="home__styles-essentials-get-img"
+                />
+                <p class="home__styles-essentials-get-title">
+                  Get <br />
+                  $15 Off
+                </p>
+                <p class="home__styles-essentials-get-subtitle">
+                  For all item in our store or website
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Section Styles -->
+
+        <!-- Section Products Slider -->
+        <div class="home__products">
+          <h2 class="home__products-title">Our Products</h2>
+
+          <div class="home__products-content">
+            <div class="home__products-item">
+              <figure class="home__products-item-figure">
+                <img
+                  class="home__products-item-img"
+                  src="./public/p1.png"
+                  alt=""
+                />
+              </figure>
+              <div class="home__products-item-head">
+                <p class="home__products-item-title">
+                  Lebron XVII Low "Stevie Griffin"
+                </p>
+                <span class="home__products-item-type"> Best selling </span>
+                <span class="home__products-item-price">$300</span>
+              </div>
+            </div>
+            <div class="home__products-item">
+              <figure class="home__products-item-figure">
+                <img
+                  class="home__products-item-img"
+                  src="./public/p1.png"
+                  alt=""
+                />
+              </figure>
+              <div class="home__products-item-head">
+                <p class="home__products-item-title">
+                  Lebron XVII Low "Stevie Griffin"
+                </p>
+                <span class="home__products-item-type"> Best selling </span>
+                <span class="home__products-item-price">$300</span>
+              </div>
+            </div>
+            <div class="home__products-item">
+              <figure class="home__products-item-figure">
+                <img
+                  class="home__products-item-img"
+                  src="./public/p1.png"
+                  alt=""
+                />
+              </figure>
+              <div class="home__products-item-head">
+                <p class="home__products-item-title">
+                  Lebron XVII Low "Stevie Griffin"
+                </p>
+                <span class="home__products-item-type"> Best selling </span>
+                <span class="home__products-item-price">$300</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__products-btn">
+            <a href="/store/" class="home__products-btn-link">
+              See All Products
+            </a>
+          </div>
+        </div>
+        <!-- End Section Products Slider -->
+
+        <!-- Footer -->
+        <div class="footer">
+          <div class="footer__content">
+            <div class="footer__content-item">
+              <a href="#" class="footer__title">
+                <i class="bx bx-run"></i>
+                <span>Shoes</span>
+              </a>
+              <p class="footer__description">
+                Finding your fashion has never been easier. Browse the best
+                selection of famous fashion brands that suit your style and
+                performance.
+              </p>
+            </div>
+            <div class="footer__content-item">
+              <h5 class="footer__content-item-option">Menu</h5>
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Men </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Women </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Order Tracking
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link"> Blog </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content-item">
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">FAQ</a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Term Of Conditions
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content-item">
+              <h5 class="footer__content-item-option">Contact</h5>
+              <ul class="footer__content-item-list">
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Contact Us
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Instagram
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__content-list-item">
+                  <a href="#" class="footer__content-list-item-link">
+                    Twitter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <span> &copy; 2024 Shoes App | By: Jobs</span>
+          </div>
+        </div>
+        <!-- End Footer -->
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

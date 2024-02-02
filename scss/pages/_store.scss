@@ -1,0 +1,180 @@
+@use "../tools/mixins";
+
+.store {
+  &__slider {
+    padding: 3rem 0;
+  }
+  &__slider-figure {
+    width: 100%;
+    height: 100%;
+  }
+  &__slider-item {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1c1c;
+  }
+  &__store-swiper {
+    height: 45vh !important;
+  }
+  &__slider-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__filters {
+    padding-top: 3rem;
+  }
+  &__filters-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  &__filters-search {
+    position: relative;
+    display: flex;
+    width: 50%;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+
+    input {
+      width: 100%;
+      padding: 0 2rem 0 3rem;
+      font-size: 1.7rem;
+      background-color: transparent;
+    }
+  }
+  &__filters-icon-search {
+    position: absolute;
+    font-size: 2rem;
+    left: 1rem;
+  }
+  &__filters-icon-clean {
+    position: absolute;
+    font-size: 2rem;
+    right: 1rem;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+
+    &.activeclean {
+      transition: all 500ms ease;
+      opacity: 1;
+      display: block;
+    }
+  }
+
+  &__filters-filter {
+    font-size: 2.5rem;
+    padding: 0.99rem;
+    background-color: #1d1c1c;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  /* Section Shoes */
+  &__shoes {
+    padding: 2rem 0;
+  }
+  /*   &__shoes-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 1rem 0 2rem 0;
+  } */
+  &__shoes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    justify-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 50rem;
+  }
+  &__shoes-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 50rem;
+  }
+  &__shoes-item-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__shoes-figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  &__shoes-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__shoes-short {
+    position: absolute;
+    padding: 0.5rem;
+    background-color: #1d1c1c;
+    border-bottom-left-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.4rem;
+    right: 0;
+  }
+  &__shoes-item-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 100%;
+    padding: 1rem 0;
+  }
+  &__shoes-item-title {
+    font-size: 1.8rem;
+  }
+  &__shoes-item-type {
+    color: #808180;
+    font-size: 1.5rem;
+  }
+  &__shoes-item-color-value {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 0.5rem;
+  }
+  &__shoes-item-color {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    border: 0.1rem solid #f2f2f3;
+  }
+  &__shoes-item-price {
+    color: #1d1c1c;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  &__shoes-item-size {
+    color: #1d1c1c;
+    font-size: 1.7rem;
+  }
+}
+
+@include mixins.responsive("tablet") {
+  .store {
+    &__filters-search {
+      width: 70%;
+    }
+  }
+}
+@include mixins.responsive("phone") {
+  .store {
+    &__store-swiper {
+      height: 30vh !important;
+    }
+  }
+}

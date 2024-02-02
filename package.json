@@ -1,0 +1,18 @@
+{
+  "name": "shoesappvanilla",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "toastify-js": "^1.12.0"
+  }
+}
