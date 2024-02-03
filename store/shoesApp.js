@@ -35,7 +35,7 @@ export function renderItem(shoes) {
       price,
     } = shoe;
 
-    const renderHtml = document.createElement("div");
+    const renderHtml = document.createElement("article");
     renderHtml.classList.add("store__shoes-item");
     renderHtml.id = id;
 
@@ -91,7 +91,7 @@ const openDetails = (details) => {
   const { shoesContainer } = variables();
 
   const detailsContent = document.querySelector(".details");
-  const detailsDiv = document.createElement("div");
+  const detailsDiv = document.createElement("section");
 
   if (!detailsContent) {
     detailsDiv.classList.add("details");
@@ -197,7 +197,7 @@ const closeDetails = (detailsDiv, shoesContainer) => {
   });
 };
 
-export const extractDetails = (detailsDiv) => {
+const extractDetails = (detailsDiv) => {
   detailsDiv.addEventListener("click", (e) => {
     if (e.target.classList.contains("details__content-item-bag")) {
       extractDetailsItem();

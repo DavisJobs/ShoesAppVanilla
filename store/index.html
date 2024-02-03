@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <div id="store" class="store">
+    <main id="store" class="store">
       <header class="header">
         <div class="header__container container">
           <a href="/" class="header__title">
@@ -37,7 +37,7 @@
         </div>
       </header>
 
-      <div class="store__slider">
+      <section class="store__slider">
         <div class="container">
           <div class="swiper storeGallery store__store-swiper">
             <div class="swiper-wrapper">
@@ -60,9 +60,9 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Section Filters -->
-      <div class="store__filters">
+      <section class="store__filters">
         <div class="store__filters-container container">
           <div class="store__filters-search">
             <i class="store__filters-icon-search bx bx-search"></i>
@@ -77,11 +77,13 @@
             <i class="bx bx-slider"></i>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Section End -->
 
-      <div class="cart">
+      <!-- Section Cart -->
+
+      <section class="cart">
         <div class="cart__content">
           <div class="cart__content-group-head">
             <i class="cart__content-close bx bx-x"></i>
@@ -108,21 +110,22 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- End Cart -->
 
       <!-- Section Shoes -->
-      <div class="store__shoes">
+      <section class="store__shoes">
         <!--  <div class="container">
           <h2 class="store__shoes-title">Most Popular</h2>
         </div> -->
         <div class="store__shoes-container container">
           <!--  -->
         </div>
-      </div>
+      </section>
       <!-- End Shoes -->
 
       <!-- Footer -->
-      <div class="footer">
+      <footer class="footer">
         <div class="container">
           <div class="footer__content">
             <div class="footer__content-item">
@@ -136,7 +139,7 @@
                 performance.
               </p>
             </div>
-            <div class="footer__content-item">
+            <article class="footer__content-item">
               <h5 class="footer__content-item-option">Menu</h5>
               <ul class="footer__content-item-list">
                 <li class="footer__content-list-item">
@@ -154,9 +157,9 @@
                   <a href="#" class="footer__content-list-item-link"> Blog </a>
                 </li>
               </ul>
-            </div>
+            </article>
 
-            <div class="footer__content-item">
+            <article class="footer__content-item">
               <ul class="footer__content-item-list">
                 <li class="footer__content-list-item">
                   <a href="#" class="footer__content-list-item-link">FAQ</a>
@@ -172,9 +175,9 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </article>
 
-            <div class="footer__content-item">
+            <article class="footer__content-item">
               <h5 class="footer__content-item-option">Contact</h5>
               <ul class="footer__content-item-list">
                 <li class="footer__content-list-item">
@@ -198,15 +201,15 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </article>
           </div>
           <div class="footer__copy">
             <span> &copy; 2024 Shoes App | By: Jobs</span>
           </div>
         </div>
-      </div>
+      </footer>
       <!-- End Footer -->
-    </div>
+    </main>
 
     <script type="module" src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

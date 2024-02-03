@@ -13,7 +13,7 @@ export function addCartItem() {
     const { id, img, title, price, brand, serie, size, count, colorValue } =
       shoe;
 
-    const item = document.createElement("div");
+    const item = document.createElement("article");
 
     item.classList.add("cart__content-item");
     item.id = id;
