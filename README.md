@@ -36,16 +36,16 @@ This application has a home page with the details it contains, and also has a st
 
 <table>
   <tr>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh1.png?raw=true" width="500px"></td>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh2.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh1.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh2.png?raw=true" width="500px"></td>
   </tr>
    <tr>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh3.png?raw=true" width="500px"></td>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh4.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh3.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh4.png?raw=true" width="500px"></td>
   </tr>
    <tr>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh5.png?raw=true" width="500px"></td>
-    <td valign="top"><img src="https://github.com/DavisJobs/shoesAppPrivate/blob/main/public/ssh6.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh5.png?raw=true" width="500px"></td>
+    <td valign="top"><img src="https://github.com/DavisJobs/ShoesAppVanilla/blob/main/public/ssh6.png?raw=true" width="500px"></td>
   </tr>
 </table>
 
